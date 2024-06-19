@@ -1,69 +1,97 @@
-.hero-container{
+.header-container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     background-image: url('\images\headphones_hero_1.jpg');
     background-color: #979797; //only to see logo, remove when img is fixed
 }
-.header-container{
+
+.header-spcing/ {
     display: flex;
-    flex-direction: column;
+    justify-content:
 }
-.logo-container{
+
+.logo-container {
     display: flex;
 }
-.logo{
+
+.logo {}
+
+.nav-container {
     display: flex;
-    justify-content: flex-start;
+
 }
-.nav-container{
+
+.nav-links {
     display: flex;
-    justify-content: flex-end;
 }
-.nav-links{
-    display: flex;
-    flex-direction: ;
-    justify-content: space-evenly;
-}
-.list-item-style{
+
+.list-item-style {
     list-style: none;
     text-decoration: none;
 }
-.content{
 
-}
-.who-container{
+.content {}
 
+.who-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.section-header{
 
+.section-header {
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
 }
-.section-text{
 
-}
-.button{
+.section-text {}
 
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
-.what-container{
 
+.what-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.icons-container{
 
-}
-.results-container{
+.icons-container {}
 
+.results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.shapes-container{
 
-}
-.contact-container{
+.shapes-container {}
 
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.form{
 
-}
-.footer-container{
+.form {}
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.footer-nav{
-    
+
+.footer-nav {
+    display: flexbox;
 }
