@@ -1,17 +1,32 @@
-.container{
-
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url('\images\headphones_hero_1.jpg');
+    background-color: #979797; //only to see logo, remove when img is fixed
 }
 .header-container{
-
+    display: flex;
+    flex-direction: column;
 }
 .logo-container{
-
+    display: flex;
 }
 .logo{
-
+    display: flex;
+    justify-content: flex-start;
 }
 .nav-container{
-
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-links{
+    display: flex;
+    flex-direction: ;
+    justify-content: space-evenly;
+}
+.list-item-style{
+    list-style: none;
+    text-decoration: none;
 }
 .content{
 
@@ -51,8 +66,4 @@
 }
 .footer-nav{
     
-}
-.list-items{
-    list-style: none;
-    text-decoration: none;
 }
