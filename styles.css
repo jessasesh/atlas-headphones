@@ -1,3 +1,27 @@
+:root {
+    --font-family: "Source Sans Pro", sans-serif;
+    --text-color: #fff;
+    --color-primary: #FF6565;
+    --color-primary-background: #fff;
+    --color-primary-footer: #071629;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+/* Desktop */
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -108,3 +132,23 @@
 .footer-nav {
     display: flex;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 375px) {
+
+    .header_container {
+        display: none;
+    }
+
+    header {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        z-index: 3;
+        height: 80%;
+        width:80%;
+        top: 5%;
+    }
